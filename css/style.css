@@ -225,3 +225,14 @@ td button i {
 td button i:first-child {
   margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1000px), (max-width: 500px) {
+  html {
+    font-size: 100%;
+  }
